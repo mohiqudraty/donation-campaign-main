@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { storeDonation } from "../../utility";
 
 const DonationDetails = () => {
   const donationDetails = useLoaderData();
@@ -12,6 +13,7 @@ const DonationDetails = () => {
   const { picture_hr, title, description, price, category } = details;
 
   const handleDonation = (price) => {
+    storeDonation(idInt);
     toast.success(`You Have Successfully Donated $${price}`);
   };
 

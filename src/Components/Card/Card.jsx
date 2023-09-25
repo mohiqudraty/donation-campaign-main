@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 
 const Card = ({ card }) => {
   const { id, picture, title, category } = card;
-  console.log(category);
 
   return (
     <Link to={`/${id}`}>
       <div
-        className={`card  shadow-xl  rounded-lg cursor-pointer 
+        className={`card  shadow-xl h-96  rounded-lg cursor-pointer 
         ${category === "health" && "bg-[#0052FF26]"}
          ${category === "education" && "bg-[#FF444A26]"}
          ${category === "clothing" && "bg-[#79C23F26]"}
