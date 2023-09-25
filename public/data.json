@@ -1,0 +1,147 @@
+ [
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/DLc4FyJ/health-bg.png",
+      "picture_hr": "https://i.ibb.co/j9YsgS6/Health.png",
+      "title": "Yoga Mat Donation",
+      "category": "health",
+      "bg_color": "#0052FF26",
+      "card_color": "#0052FF33",
+      "text_color": "#0052FF",
+      "description": "Help enhance yoga practice by donating premium yoga mats. Provide exceptional comfort and support for all poses and stretches, ensuring stability during practice. Your contribution supports a healthier lifestyle for individuals in need.",
+      "price": 290
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/JkVVWXD/education-bg.png",
+      "picture_hr": "https://i.ibb.co/PGdTBSk/Education.png",
+      "title": "Educational Books Donation",
+      "category": "education",
+      "bg_color": "#FF444A26",
+      "card_color": "#FF444A33",
+      "text_color": "#FF444A",
+      "description": "Contribute to knowledge and learning by donating a set of educational books. Covering a wide array of subjects including science, history, literature, and more, your donation expands horizons and enhances the learning experience for recipients.",
+      "price": 400
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/zX10Vxx/clothing-bg.png",
+      "picture_hr": "https://i.ibb.co/L0Vs1kg/Clothing.png",
+      "title": "Men's Classic T-Shirt Donation",
+      "category": "clothing",
+      "bg_color": "#79C23F26",
+      "card_color": "#79C23F33",
+      "text_color": "#79C23F",
+      "description": "Provide comfort and style by donating classic men's t-shirts. Made from soft, breathable fabric, these t-shirts are perfect for everyday wear, boosting the confidence and dignity of individuals in need.",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/B4V3frz/food-bg.png",
+      "picture_hr": "https://i.ibb.co/CPDbxLZ/Food.png",
+      "title": "Organic Fruit Basket Donation",
+      "category": "food",
+      "bg_color": "#F8714726",
+      "card_color": "#F871472D",
+      "text_color": "#F87147",
+      "description": "Share the flavors of nature by donating exquisite organic fruit baskets. Handpicked from the finest orchards, these baskets include an assortment of fresh, ripe fruits bursting with natural sweetness and nutrients. Nourish bodies and spread joy through your donation.",
+      "price": 450
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/JkVVWXD/education-bg.png",
+      "picture_hr": "https://i.ibb.co/PGdTBSk/Education.png",
+      "title": "Digital Drawing Tablet Donation",
+      "category": "education",
+      "bg_color": "#FF444A26",
+      "card_color": "#FF444A33",
+      "text_color": "#FF444A",
+      "description": "Encourage creativity and learning by donating advanced digital drawing tablets. Ideal for artists and students, these tablets provide precision and versatility for digital art projects, empowering artistic expression and growth.",
+      "price": 350
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/DLc4FyJ/health-bg.png",
+      "picture_hr": "https://i.ibb.co/j9YsgS6/Health.png",
+      "title": "Protein Powder Donation",
+      "category": "health",
+      "bg_color": "#0052FF26",
+      "card_color": "#0052FF33",
+      "text_color": "#0052FF",
+      "description": "Support fitness journeys by donating premium protein powder. Packed with high-quality protein and essential nutrients, it's designed to support muscle growth, repair, and recovery, aiding in healthier and stronger lives.",
+      "price": 280
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/zX10Vxx/clothing-bg.png",
+      "picture_hr": "https://i.ibb.co/L0Vs1kg/Clothing.png",
+      "title": "Women's Workout Leggings Donation",
+      "category": "clothing",
+      "bg_color": "#79C23F26",
+      "card_color": "#79C23F33",
+      "text_color": "#79C23F",
+      "description": "Empower women's fitness journeys by donating high-quality workout leggings. The moisture-wicking fabric keeps them cool and dry during workouts, boosting confidence and comfort during physical activities.",
+      "price": 240
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/B4V3frz/food-bg.png",
+      "picture_hr": "https://i.ibb.co/CPDbxLZ/Food.png",
+      "title": "Gourmet Chocolate Collection Donation",
+      "category": "food",
+      "bg_color": "#F8714726",
+      "card_color": "#F871472D",
+      "text_color": "#F87147",
+      "description": "Delight and uplift spirits by donating handcrafted gourmet chocolate collections. Each piece is a masterpiece, carefully crafted with the finest ingredients to tantalize taste buds and bring moments of joy.",
+      "price": 290
+    },
+
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/JkVVWXD/education-bg.png",
+      "picture_hr": "https://i.ibb.co/PGdTBSk/Education.png",
+      "title": "Language Learning Software Donation",
+      "category": "education",
+      "bg_color": "#FF444A26",
+      "card_color": "#FF444A33",
+      "text_color": "#FF444A",
+      "description": "Facilitate language learning and cultural understanding by donating language learning software. Ideal for learners of all levels, it offers interactive lessons, speech recognition, and insights into different cultures.",
+      "price": 540
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/zX10Vxx/clothing-bg.png",
+      "picture_hr": "https://i.ibb.co/L0Vs1kg/Clothing.png",
+      "title": "Women's Elegant Dress Donation",
+      "category": "clothing",
+      "bg_color": "#e74c3c",
+      "card_color": "#2ecc71",
+      "text_color": "#000000",
+      "description": "Empower women with confidence and elegance by donating stylish dresses. These elegant dresses are perfect for various occasions, boosting self-esteem and allowing individuals to step into the spotlight.",
+      "price": 590
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/B4V3frz/food-bg.png",
+      "picture_hr": "https://i.ibb.co/CPDbxLZ/Food.png",
+      "title": "Organic Smoothie Pack Donation",
+      "category": "food",
+      "bg_color": "#F8714726",
+      "card_color": "#F871472D",
+      "text_color": "#F87147",
+      "description": "Support a healthy lifestyle by donating organic smoothie packs. Bursting with natural flavors and nutrients, these smoothies are a quick and convenient way to fuel the day, promoting overall well-being.",
+      "price": 190
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/DLc4FyJ/health-bg.png",
+      "picture_hr": "https://i.ibb.co/j9YsgS6/Health.png",
+      "title": "Fitness Tracker Watch Donation",
+      "bg_color": "#0052FF26",
+      "card_color": "#0052FF33",
+      "text_color": "#0052FF",
+      "description": "Promote healthier lifestyles by donating advanced fitness tracker watches. These watches monitor steps, heart rate, sleep patterns, and more, encouraging a focus on well-being and fitness goals.",
+      "price": 690
+    }
+  ]
+
