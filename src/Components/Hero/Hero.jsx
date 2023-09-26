@@ -1,4 +1,15 @@
+import { useContext } from "react";
+import { SearchContext } from "../Home/Home";
+
 const Hero = () => {
+  const [search, setSearch] = useContext(SearchContext);
+  console.log(search);
+  const handleSearch = (e) => {
+    e.preventDefault();
+
+    setSearch(e.target.search.value);
+  };
+
   return (
     <div
       className="hero min-h-screen"
@@ -12,11 +23,12 @@ const Hero = () => {
           <h2 className="text-2xl  sm:text-3xl lg:text-5xl font-bold mb-10">
             I Grow By Helping People In Need
           </h2>
-          <form>
+          <form onSubmit={handleSearch}>
             <div className="flex">
               <div className="relative w-3/5 mx-auto">
                 <input
                   type="search"
+                  name="search"
                   className="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-lg  border border-gray-300"
                   placeholder="Health, Education, Food, Clothing....."
                   required
