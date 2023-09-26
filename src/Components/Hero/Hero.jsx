@@ -1,9 +1,15 @@
 const Hero = () => {
   return (
-    <div className="hero min-h-[400px] bg-base-200">
-      <div className="hero-content text-center">
+    <div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage: "url(/src/assets/donation.jpg)",
+      }}
+    >
+      <div className="hero-overlay bg-opacity-80"></div>
+      <div className="hero-content text-center text-neutral-content">
         <div className="max-w-full">
-          <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-10">
+          <h2 className="text-2xl  sm:text-3xl lg:text-5xl font-bold mb-10">
             I Grow By Helping People In Need
           </h2>
           <form>

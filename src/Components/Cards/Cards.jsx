@@ -4,7 +4,7 @@ const Cards = () => {
   const cardsData = useLoaderData();
 
   return (
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 mb-8 ">
+    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 my-20 ">
       {" "}
       {cardsData.map((card) => (
         <Card card={card} key={card.id}></Card>

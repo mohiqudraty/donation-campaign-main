@@ -14,6 +14,7 @@ const DonationDetails = () => {
 
   const handleDonation = (price) => {
     storeDonation(idInt);
+
     toast.success(`You Have Successfully Donated $${price}`);
   };
 
