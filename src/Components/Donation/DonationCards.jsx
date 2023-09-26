@@ -14,10 +14,10 @@ const DonationCards = ({ info }) => {
   return (
     <div
       className={`flex flex-col max-w-[600px] items-center rounded-lg shadow
-${bg_color}
 
 
 `}
+      style={{ backgroundColor: bg_color }}
     >
       <div className="flex  flex-col gap-6 items-center  sm:justify-start sm:flex-row  p-4">
         <img className="w-5/12" src={picture_hr} alt="" />
@@ -26,8 +26,9 @@ ${bg_color}
             {" "}
             <h3
               className={`text-sm py-1 px-2 rounded
-    ${card_color}
+  
   `}
+              style={{ backgroundColor: card_color }}
             >
               {category}
             </h3>
@@ -36,19 +37,18 @@ ${bg_color}
           <h3
             className={`font-semibold mb-5
   
- ${text_color}
+
   
   `}
+            style={{ color: text_color }}
           >
             ${price}.00
           </h3>
           <button
+            style={{ backgroundColor: text_color }}
             className={`text-lg font-semibold text-white py-2 px-4 rounded
   
-  ${category === "health" && "bg-[#0052FF]"}
-  ${category === "education" && "bg-[#FF444A]"}
-  ${category === "clothing" && "bg-[#79C23F]"}
-  ${category === "food" && "bg-[#F87147]"}
+  
   
   `}
           >
@@ -61,3 +61,8 @@ ${bg_color}
 };
 
 export default DonationCards;
+
+// ${category === "health" && "bg-[#0052FF]"}
+// ${category === "education" && "bg-[#FF444A]"}
+// ${category === "clothing" && "bg-[#79C23F]"}
+// ${category === "food" && "bg-[#F87147]"}

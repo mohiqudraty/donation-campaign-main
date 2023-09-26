@@ -25,7 +25,7 @@ const Hero = () => {
           </h2>
           <form onSubmit={handleSearch}>
             <div className="flex">
-              <div className="relative w-3/5 mx-auto">
+              <div className="relative w-full sm:w-3/5 mx-auto">
                 <input
                   type="search"
                   name="search"

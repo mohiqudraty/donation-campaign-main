@@ -11,10 +11,10 @@ const Home = () => {
   const cardsData = useLoaderData();
   return (
     <SearchContext.Provider value={[search, setSearch]}>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <Hero></Hero>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 my-20 ">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 my-20  ">
           {" "}
           {cardsData
             .filter((c) =>

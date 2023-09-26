@@ -1,20 +1,30 @@
 import { Chart } from "react-google-charts";
-
-const donationData = [
-  ["donation", "donated", "Expenses"],
-  ["Your Donation", 660, 1120],
-  ["Total Donation", 1030, 540],
-];
-
-const ChartOption = {
-  title: "Donation Analytics",
-
-  slices: [{ color: "#FF444A" }, { color: "#00C49F" }],
-};
+import { useLoaderData } from "react-router-dom";
+import { getDonatedData } from "../../utility";
 
 const Statistics = () => {
+  const totalDonation = useLoaderData();
+
+  console.log(totalDonation.length);
+  console.log(getDonatedData().length);
+
+  const donationData = [
+    ["donation", "donated"],
+    ["Your Donation", getDonatedData().length ? getDonatedData().length : 0],
+    [
+      "Total Donation",
+      totalDonation.length ? totalDonation.length - getDonatedData().length : 0,
+    ],
+  ];
+
+  const ChartOption = {
+    title: "Donation Analytics",
+    legend: "bottom",
+    slices: [{ color: "#FF444A" }, { color: "#00C49F" }],
+  };
+
   return (
-    <div>
+    <div className="container mx-auto">
       <Chart
         chartType="PieChart"
         data={donationData}

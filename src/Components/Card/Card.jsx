@@ -10,10 +10,11 @@ const Card = ({ card }) => {
     <Link to={`/${id}`}>
       <div
         className={`card  shadow-xl h-96  rounded-lg cursor-pointer 
-        ${bg_color}
-        
         
         `}
+        style={{
+          backgroundColor: bg_color,
+        }}
       >
         <figure>
           <img className="w-full" src={picture} alt={title} />
@@ -21,15 +22,20 @@ const Card = ({ card }) => {
         <div className="card-body">
           <div className="flex">
             <h2
-              className={` text-sm font-medium py-1 px-2 rounded 
-              ${card_color}`}
+              className={` text-sm font-medium py-1 px-2 rounded `}
+              style={{
+                backgroundColor: card_color,
+              }}
             >
               {category}
             </h2>
           </div>
           <h3
             className={`text-xl font-semibold 
-          ${text_color} `}
+          `}
+            style={{
+              color: text_color,
+            }}
           >
             {title}
           </h3>
