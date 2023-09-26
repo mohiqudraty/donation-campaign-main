@@ -1,11 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 const NavBar = () => {
   return (
-    <nav className="container mx-auto flex flex-col gap-5 md:flex-row justify-between items-center py-10 px-6">
-      <div>
+    <nav className="container mx-auto flex flex-col gap-5 md:flex-row justify-between items-center py-8 px-6">
+      <Link to={"/"}>
+        {" "}
         <img className="h-[72px]" src={logo} alt="Donation" />
-      </div>
+      </Link>
+
       <ul className="flex items-center gap-10">
         <NavLink
           to={"/"}

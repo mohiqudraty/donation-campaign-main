@@ -26,7 +26,18 @@ const Donation = () => {
         ))}
       </div>
 
-      <div className={`${donationInfo.length === showAllData && "hidden"}`}>
+      {donationInfo.length === 0 && (
+        <div className="flex justify-center mt-20">
+          <h2 className="text-3xl">Data Not Found</h2>
+        </div>
+      )}
+
+      <div
+        className={`${donationInfo.length === showAllData && "hidden"} 
+${donationInfo.length < 4 && "hidden"}
+        
+        `}
+      >
         {" "}
         <button
           onClick={() => setShowAllData(donationInfo.length)}

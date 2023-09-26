@@ -30,7 +30,7 @@ const Statistics = () => {
         data={donationData}
         options={ChartOption}
         width="100%"
-        height="600px"
+        height="550px"
       />
     </div>
   );

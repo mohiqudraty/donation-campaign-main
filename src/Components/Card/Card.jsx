@@ -25,6 +25,7 @@ const Card = ({ card }) => {
               className={` text-sm font-medium py-1 px-2 rounded `}
               style={{
                 backgroundColor: card_color,
+                color: text_color,
               }}
             >
               {category}

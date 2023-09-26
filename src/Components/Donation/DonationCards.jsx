@@ -28,12 +28,17 @@ const DonationCards = ({ info }) => {
               className={`text-sm py-1 px-2 rounded
   
   `}
-              style={{ backgroundColor: card_color }}
+              style={{ backgroundColor: card_color, color: text_color }}
             >
               {category}
             </h3>
           </div>
-          <h2 className="text-2xl font-semibold my-2">{title}</h2>
+          <h2
+            style={{ color: text_color }}
+            className="text-2xl font-semibold my-2"
+          >
+            {title}
+          </h2>
           <h3
             className={`font-semibold mb-5
   

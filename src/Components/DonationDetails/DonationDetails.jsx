@@ -30,7 +30,7 @@ const DonationDetails = () => {
         <button
           style={{ backgroundColor: text_color }}
           onClick={() => handleDonation(price)}
-          className={`py-4 px-7 text-xl font-semibold text-white absolute bottom-0 left-0  sm:bottom-5 sm:left-6 right-0 sm:w-56 `}
+          className={`py-4 px-7 text-xl font-semibold text-white absolute bottom-0 left-0  sm:bottom-5 sm:left-6 right-0 sm:w-56 rounded `}
         >{`Donate $${price}`}</button>
       </div>
       <div>
