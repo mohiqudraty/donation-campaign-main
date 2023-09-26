@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
 const DonationCards = ({ info }) => {
   const {
     picture_hr,
@@ -59,10 +59,8 @@ const DonationCards = ({ info }) => {
     </div>
   );
 };
+DonationCards.propTypes = {
+  info: PropTypes.object,
+};
 
 export default DonationCards;
-
-// ${category === "health" && "bg-[#0052FF]"}
-// ${category === "education" && "bg-[#FF444A]"}
-// ${category === "clothing" && "bg-[#79C23F]"}
-// ${category === "food" && "bg-[#F87147]"}

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { SearchContext } from "../Home/Home";
-
+import "./Hero.css";
 const Hero = () => {
   const [search, setSearch] = useContext(SearchContext);
   console.log(search);
@@ -12,10 +12,10 @@ const Hero = () => {
 
   return (
     <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage: "url(/src/assets/donation.jpg)",
-      }}
+      className="hero min-h-screen hero-bg"
+      // style={{
+      //   backgroundImage: "url(/assets/donation.jpg)",
+      // }}
     >
       <div className="hero-overlay bg-opacity-80"></div>
       <div className="hero-content text-center text-neutral-content">
