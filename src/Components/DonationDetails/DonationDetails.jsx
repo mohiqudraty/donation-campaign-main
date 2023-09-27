@@ -10,7 +10,9 @@ const DonationDetails = () => {
   const idInt = parseInt(id);
 
   const details = donationDetails.find((details) => details.id === idInt);
-  const { picture_hr, title, description, price, text_color } = details;
+
+  const { pictureRect, title, description, price, text_color } = details;
+  // console.log(pictureRect);
 
   const handleDonation = (price) => {
     storeDonation(idInt);
@@ -23,7 +25,7 @@ const DonationDetails = () => {
       <div className="relative">
         <img
           className=" w-full h-[450px] rounded-lg  object-cover"
-          src={picture_hr}
+          src={pictureRect}
           alt={title}
         />
         <div className="absolute bottom-0 left-0 right-0 rounded-bl-lg rounded-br-lg bg-black opacity-60 h-24 flex items-center"></div>

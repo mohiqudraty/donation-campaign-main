@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { SearchContext } from "../Home/Home";
 import "./Hero.css";
 const Hero = () => {
-  const [search, setSearch] = useContext(SearchContext);
-  console.log(search);
+  const [, setSearch] = useContext(SearchContext);
+  // console.log(search);
   const handleSearch = (e) => {
     e.preventDefault();
 

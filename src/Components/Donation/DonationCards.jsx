@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 const DonationCards = ({ info }) => {
   const {
-    picture_hr,
+    pictureRect,
     category,
     title,
     price,
@@ -20,7 +20,7 @@ const DonationCards = ({ info }) => {
       style={{ backgroundColor: bg_color }}
     >
       <div className="flex  flex-col gap-6 items-center  sm:justify-start sm:flex-row  p-4">
-        <img className="w-5/12" src={picture_hr} alt="" />
+        <img className="w-5/12" src={pictureRect} alt="" />
         <div>
           <div className="flex">
             {" "}

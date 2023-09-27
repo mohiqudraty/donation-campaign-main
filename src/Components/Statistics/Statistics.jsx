@@ -5,8 +5,8 @@ import { getDonatedData } from "../../utility";
 const Statistics = () => {
   const totalDonation = useLoaderData();
 
-  console.log(totalDonation.length);
-  console.log(getDonatedData().length);
+  // console.log(totalDonation.length);
+  // console.log(getDonatedData().length);
 
   const donationData = [
     ["donation", "donated"],

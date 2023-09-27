@@ -2,7 +2,7 @@
   {
     "id": 1,
     "picture": "https://i.ibb.co/DLc4FyJ/health-bg.png",
-    "picture_hr": "https://i.ibb.co/j9YsgS6/Health.png",
+    "pictureRect": "https://i.ibb.co/j9YsgS6/Health.png",
     "title": "Yoga Mat Donation",
     "category": "health",
     "bg_color": "#0052FF26",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "picture": "https://i.ibb.co/JkVVWXD/education-bg.png",
-    "picture_hr": "https://i.ibb.co/PGdTBSk/Education.png",
+    "pictureRect": "https://i.ibb.co/PGdTBSk/Education.png",
     "title": "Educational Books Donation",
     "category": "education",
     "bg_color": "#FF444A26",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "picture": "https://i.ibb.co/zX10Vxx/clothing-bg.png",
-    "picture_hr": "https://i.ibb.co/L0Vs1kg/Clothing.png",
+    "pictureRect": "https://i.ibb.co/L0Vs1kg/Clothing.png",
     "title": "Men's Classic T-Shirt Donation",
     "category": "clothing",
     "bg_color": "#79C23F26",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "picture": "https://i.ibb.co/B4V3frz/food-bg.png",
-    "picture_hr": "https://i.ibb.co/CPDbxLZ/Food.png",
+    "pictureRect": "https://i.ibb.co/CPDbxLZ/Food.png",
     "title": "Organic Fruit Basket Donation",
     "category": "food",
     "bg_color": "#F8714726",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "picture": "https://i.ibb.co/JkVVWXD/education-bg.png",
-    "picture_hr": "https://i.ibb.co/PGdTBSk/Education.png",
+    "pictureRect": "https://i.ibb.co/PGdTBSk/Education.png",
     "title": "Digital Drawing Tablet Donation",
     "category": "education",
     "bg_color": "#FF444A26",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "picture": "https://i.ibb.co/DLc4FyJ/health-bg.png",
-    "picture_hr": "https://i.ibb.co/j9YsgS6/Health.png",
+    "pictureRect": "https://i.ibb.co/j9YsgS6/Health.png",
     "title": "Protein Powder Donation",
     "category": "health",
     "bg_color": "#0052FF26",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "picture": "https://i.ibb.co/zX10Vxx/clothing-bg.png",
-    "picture_hr": "https://i.ibb.co/L0Vs1kg/Clothing.png",
+    "pictureRect": "https://i.ibb.co/L0Vs1kg/Clothing.png",
     "title": "Women's Workout Leggings Donation",
     "category": "clothing",
     "bg_color": "#79C23F26",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "picture": "https://i.ibb.co/B4V3frz/food-bg.png",
-    "picture_hr": "https://i.ibb.co/CPDbxLZ/Food.png",
+    "pictureRect": "https://i.ibb.co/CPDbxLZ/Food.png",
     "title": "Gourmet Chocolate Collection Donation",
     "category": "food",
     "bg_color": "#F8714726",
@@ -99,7 +99,7 @@
   {
     "id": 9,
     "picture": "https://i.ibb.co/JkVVWXD/education-bg.png",
-    "picture_hr": "https://i.ibb.co/PGdTBSk/Education.png",
+    "pictureRect": "https://i.ibb.co/PGdTBSk/Education.png",
     "title": "Language Learning Software Donation",
     "category": "education",
     "bg_color": "#FF444A26",
@@ -111,7 +111,7 @@
   {
     "id": 10,
     "picture": "https://i.ibb.co/zX10Vxx/clothing-bg.png",
-    "picture_hr": "https://i.ibb.co/L0Vs1kg/Clothing.png",
+    "pictureRect": "https://i.ibb.co/L0Vs1kg/Clothing.png",
     "title": "Women's Elegant Dress Donation",
     "category": "clothing",
     "bg_color": "#79C23F26",
@@ -123,7 +123,7 @@
   {
     "id": 11,
     "picture": "https://i.ibb.co/B4V3frz/food-bg.png",
-    "picture_hr": "https://i.ibb.co/CPDbxLZ/Food.png",
+    "pictureRect": "https://i.ibb.co/CPDbxLZ/Food.png",
     "title": "Organic Smoothie Pack Donation",
     "category": "food",
     "bg_color": "#F8714726",
@@ -135,7 +135,7 @@
   {
     "id": 12,
     "picture": "https://i.ibb.co/DLc4FyJ/health-bg.png",
-    "picture_hr": "https://i.ibb.co/j9YsgS6/Health.png",
+    "pictureRect": "https://i.ibb.co/j9YsgS6/Health.png",
     "title": "Fitness Tracker Watch Donation",
     "category": "health",
     "bg_color": "#0052FF26",
