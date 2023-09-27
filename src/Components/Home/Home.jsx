@@ -20,7 +20,7 @@ const Home = () => {
             .filter((c) =>
               search.toLowerCase() === ""
                 ? c
-                : c.category.toLowerCase().includes(search)
+                : c.category.toLowerCase().includes(search.toLowerCase())
             )
             .map((card) => (
               <Card card={card} key={card.id}></Card>
